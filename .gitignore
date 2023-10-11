@@ -18,3 +18,4 @@
 /src/ports/CyberOfficeAPI.Ports.API/bin/Debug/net6.0
 /src/ports/CyberOfficeAPI.Ports.API/obj
 /tests/CyberOfficeAPI.Tests/obj
+/src/ports/api2/obj
