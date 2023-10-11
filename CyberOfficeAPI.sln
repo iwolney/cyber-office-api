@@ -32,8 +32,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8A8101B4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Tests", "tests\CyberOfficeAPI.Tests\CyberOfficeAPI.Tests.csproj", "{488DA531-17D0-41EA-AC38-7A5B6A5D115E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api2", "src\ports\api2\api2.csproj", "{C402A606-2F3B-4ED6-8059-936449A0D887}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,10 +66,6 @@ Global
 		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C402A606-2F3B-4ED6-8059-936449A0D887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C402A606-2F3B-4ED6-8059-936449A0D887}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C402A606-2F3B-4ED6-8059-936449A0D887}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C402A606-2F3B-4ED6-8059-936449A0D887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,7 +81,6 @@ Global
 		{F68E179C-36D9-47E4-89E6-F11057EFC23F} = {AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8}
 		{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1} = {B18B396C-1B10-427F-AFFB-62F91C005419}
 		{488DA531-17D0-41EA-AC38-7A5B6A5D115E} = {8A8101B4-9FBC-4D61-AD92-B3EDCAC84362}
-		{C402A606-2F3B-4ED6-8059-936449A0D887} = {36812A64-EE18-4B13-9FAC-4BEC2CB1EAA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EADC3988-8DD3-4210-8221-998840CECBD1}
