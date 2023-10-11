@@ -17,3 +17,4 @@
 /src/core/CyberOfficeAPI.Core.Shared/obj
 /src/ports/CyberOfficeAPI.Ports.API/bin/Debug/net6.0
 /src/ports/CyberOfficeAPI.Ports.API/obj
+/tests/CyberOfficeAPI.Tests/obj

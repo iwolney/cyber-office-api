@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Core.Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Adapters.MessageBroker", "src\adapters\CyberOfficeAPI.Adapters.MessageBroker\CyberOfficeAPI.Adapters.MessageBroker.csproj", "{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8A8101B4-9FBC-4D61-AD92-B3EDCAC84362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Tests", "tests\CyberOfficeAPI.Tests\CyberOfficeAPI.Tests.csproj", "{488DA531-17D0-41EA-AC38-7A5B6A5D115E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,10 @@ Global
 		{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488DA531-17D0-41EA-AC38-7A5B6A5D115E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,7 @@ Global
 		{DE0755FE-FEF9-4BDD-9C56-276AF33C7CBB} = {AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8}
 		{F68E179C-36D9-47E4-89E6-F11057EFC23F} = {AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8}
 		{0AF301E9-B3ED-40C9-B4B6-39B21CDECED1} = {B18B396C-1B10-427F-AFFB-62F91C005419}
+		{488DA531-17D0-41EA-AC38-7A5B6A5D115E} = {8A8101B4-9FBC-4D61-AD92-B3EDCAC84362}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EADC3988-8DD3-4210-8221-998840CECBD1}
