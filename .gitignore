@@ -9,3 +9,11 @@
 /.vs
 /src/core/CyberOfficeAPI.Core.Domain/bin/Debug/net6.0
 /src/core/CyberOfficeAPI.Core.Domain/obj
+/src/adapters/CyberOfficeAPI.Adapter.SQLServer/obj/Debug/net6.0
+/src/adapters/CyberOfficeAPI.Adapter.SQLServer/obj
+/src/adapters/CyberOfficeAPI.Adapter.SQLServer/bin/Debug/net6.0
+/src/adapters/CyberOfficeAPI.Adapters.MessageBroker/obj
+/src/core/CyberOfficeAPI.Core.Application/obj
+/src/core/CyberOfficeAPI.Core.Shared/obj
+/src/ports/CyberOfficeAPI.Ports.API/bin/Debug/net6.0
+/src/ports/CyberOfficeAPI.Ports.API/obj
