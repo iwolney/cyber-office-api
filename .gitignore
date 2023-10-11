@@ -3,3 +3,9 @@
 ################################################################################
 
 /obj/Debug/net6.0
+/obj
+/.vs/cyber-office-api/v16
+/.vs/cyber-office-api/v17
+/.vs
+/src/core/CyberOfficeAPI.Core.Domain/bin/Debug/net6.0
+/src/core/CyberOfficeAPI.Core.Domain/obj

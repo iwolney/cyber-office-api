@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A223C812-F343-4323-87E0-339088C70299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED374784-B350-4797-A573-A6A5E2F26E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "adapters", "adapters", "{B18B396C-1B10-427F-AFFB-62F91C005419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{36812A64-EE18-4B13-9FAC-4BEC2CB1EAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Core.Domain", "src\core\CyberOfficeAPI.Core.Domain\CyberOfficeAPI.Core.Domain.csproj", "{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Ports.API", "..\src\ports\CyberOfficeAPI.Ports.API\CyberOfficeAPI.Ports.API.csproj", "{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberOfficeAPI.Adapter.SQLServer", "..\src\adapters\CyberOfficeAPI.Adapter.SQLServer\CyberOfficeAPI.Adapter.SQLServer.csproj", "{758A3216-A426-435D-8262-C5BB9FFCD24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758A3216-A426-435D-8262-C5BB9FFCD24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758A3216-A426-435D-8262-C5BB9FFCD24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758A3216-A426-435D-8262-C5BB9FFCD24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758A3216-A426-435D-8262-C5BB9FFCD24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B18B396C-1B10-427F-AFFB-62F91C005419} = {ED374784-B350-4797-A573-A6A5E2F26E1A}
+		{36812A64-EE18-4B13-9FAC-4BEC2CB1EAA4} = {ED374784-B350-4797-A573-A6A5E2F26E1A}
+		{AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8} = {ED374784-B350-4797-A573-A6A5E2F26E1A}
+		{FFC3C204-46DE-4C1B-810D-AAEE28F3B0FD} = {AAEDD55C-C6E1-42D7-82A6-79DFFAC63AA8}
+		{3E2E0C63-25E4-4DE6-8AD5-CAEA698DC4B6} = {36812A64-EE18-4B13-9FAC-4BEC2CB1EAA4}
+		{758A3216-A426-435D-8262-C5BB9FFCD24D} = {B18B396C-1B10-427F-AFFB-62F91C005419}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EADC3988-8DD3-4210-8221-998840CECBD1}
+	EndGlobalSection
+EndGlobal
